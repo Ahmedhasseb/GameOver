@@ -1,0 +1,19 @@
+@import '../../index.scss';
+
+$bgback:#32383e;
+.img{
+    background-image: url(./photo.png.jpg);
+    background-size:cover;
+    
+    background-position: center;
+    height: 80vh;
+    
+    
+     }
+     .bg{
+
+
+
+        background-color: $bgback;
+    }
+     

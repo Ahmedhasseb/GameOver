@@ -1,0 +1,91 @@
+
+$bgColor:#272b30;
+$colors:#aaaaaa;
+$font:#a8a8a83d;
+$width:70px;
+$height:1px;
+$color:#664d03;
+$bgalert:#fff3cd;
+
+
+
+
+
+body {
+
+color: $colors;
+ font-family: Xanh Mono,monospace;
+  background-color:$bgColor;
+ 
+ }
+ a{
+    color:$colors !important
+}
+
+.line{
+    height: $height ;
+    
+    background-color:$font ;
+     }
+     .alert{
+        background-color:$bgalert !important;
+        color: $color !important ;
+     }
+     .blue{
+        color: #4799eb !important;
+     }
+     .Free{
+     width: 40px !important;
+      background-color: #4799eb !important;
+     }
+     .text{
+      
+      white-space: nowrap !important;
+      word-spacing: -2px !important;
+      text-overflow: ellipsis !important;
+      overflow: hidden !important;
+     
+      
+    }
+    .div{
+      overflow: hidden !important;
+      white-space: nowrap !important;
+      text-overflow: ellipsis!important;
+ 
+    }
+    
+    
+    .bordgnre{
+      border: 1px solid ;
+      background-color: $font;
+      border-radius: 10px;
+    
+      
+    }
+    .title{
+      background-color: #32383e !important;
+    }
+    .All:hover {
+      transform: scale(1.06) !important;
+    }
+    .All{
+      transition: 0.5s;
+      overflow: hidden;
+    }
+ 
+  .dropdown-menu a{
+    color: black !important;
+    font-weight: bold !important;
+    
+  }
+.description{
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+ul{
+  list-style: none !important;
+}
+strong{
+  font-weight: bolder !important;
+  
+}

@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+$bgback:#32383e;
+$bginput:#1c1e22;
+$bord:none;
+$width:100%;
+
+.bg{
+
+
+
+    background-color: $bgback;
+}
+ .back{
+background-color: $bginput !important;
+border: 0 solid $bginput !important;
+border-radius: 10px !important;
+color: #fff !important;
+ }
+ .creat{
+    border: 1  $bginput !important;
+ }
+ .img{
+background-image: url(./photo.jpg);
+background-size:cover;
+
+background-position: center;
+height: 90vh;
+
+
+ }
+ 
+ 
